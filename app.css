@@ -1,0 +1,61 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Righteous", cursive;
+  background: url(three-white-ceramic-pots-with-green-leaf-plants-near-open-796602.jpg)
+    no-repeat;
+  background-size: 1366px 632px;
+  /* background-position: 500%; */
+}
+
+.login-container {
+  position: absolute;
+  width: 280px;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: #ec1766;
+}
+.login-container h1 {
+  border-bottom: 4px solid #ec1766;
+  position: absolute;
+  top: -73%;
+  font-size: 30px;
+  padding: 13px 0;
+}
+.text-area {
+  width: 100%;
+  overflow: hidden;
+  font-size: 20px;
+  padding: 8px 0;
+  margin: 8px 0;
+  border-bottom: 1px solid;
+}
+.text-area img {
+  width: 20px;
+  height: 20px;
+  float: left;
+  /* color: #ec1766; */
+  fill: #ec1766;
+  text-align: center;
+}
+.text-area input {
+  border: none;
+  outline: none;
+  background: none;
+  color: #ec1766;
+  width: 190px;
+  font-size: 25px;
+  float: left;
+  margin: 0 10px;
+  font-family: "Cute Font", cursive;
+}
+body > div > input[type="button"] {
+  width: 100%;
+  background: none;
+  border: 2px solid #ec1766;
+  padding: 5px;
+  cursor: pointer;
+  font-size: 18px;
+  color: #ec1766;
+}
